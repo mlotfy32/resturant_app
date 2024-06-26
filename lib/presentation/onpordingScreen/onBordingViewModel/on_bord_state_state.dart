@@ -1,4 +1,4 @@
-part of 'on_bord_state_cubit.dart';
+import 'package:flutter/material.dart';
 
 @immutable
 abstract class OnBordStateState {}

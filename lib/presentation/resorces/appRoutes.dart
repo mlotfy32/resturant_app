@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:resturantapp/presentation/forgetPass/forgetPass.dart';
 import 'package:resturantapp/presentation/homeScreen/homeScreen.dart';
-import 'package:resturantapp/presentation/logIn/logIn.dart';
+import 'package:resturantapp/presentation/logIn/logIn_View/logIn.dart';
 import 'package:resturantapp/presentation/onpordingScreen/onBordingView/onpordingScreenView.dart';
 import 'package:resturantapp/presentation/register/register.dart';
 import 'package:resturantapp/presentation/splashScreen/splashScreen.dart';

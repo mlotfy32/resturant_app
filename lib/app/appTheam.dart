@@ -22,17 +22,7 @@ class Theam {
             shadowColor: ColorManager.lightPrimary,
             titleTextStyle: FonstStyle.regular14
                 .copyWith(color: Colors.white, fontSize: 16)),
-        buttonTheme: ButtonThemeData(
-            shape: StadiumBorder(),
-            disabledColor: ColorManager.gray737477,
-            buttonColor: ColorManager.primaryColor,
-            splashColor: ColorManager.lightPrimary),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-            style: ElevatedButton.styleFrom(
-                textStyle: FonstStyle.regular14
-                    .copyWith(fontSize: 17, color: ColorManager.primaryColor),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(AppSize.s12)))),
+
         //textTheme
         textTheme: TextTheme(
             displayLarge: FonstStyle.semibold18
@@ -59,7 +49,7 @@ class Theam {
                 borderRadius: BorderRadius.circular(AppSize.s8)),
             focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(
-                  color: ColorManager.darkGray525252,
+                  color: ColorManager.primaryColor,
                   width: AppSize.s1_5,
                 ),
                 borderRadius: BorderRadius.circular(AppSize.s8)),

@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
-import 'package:resturantapp/presentation/logIn/logIn.dart';
+import 'package:resturantapp/presentation/logIn/logIn_View/logIn.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/on_bord_state_state.dart';
 import 'package:resturantapp/presentation/register/register.dart';
 import 'package:get/get.dart';
-part 'on_bord_state_state.dart';
 
 class OnBordStateCubit extends Cubit<OnBordStateState> {
   OnBordStateCubit() : super(OnBordStateInitial());

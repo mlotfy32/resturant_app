@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:resturantapp/domain/models.dart';
-import 'package:resturantapp/presentation/manager/onBordingCubit/on_bord_state_cubit.dart';
 import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/onBordingViewModel.dart';
-import 'package:resturantapp/presentation/onpordingScreen/widgets/onBordingPage.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingView/onBordingPage.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/on_bord_state_cubit.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/on_bord_state_state.dart';
 import 'package:resturantapp/presentation/resorces/appStrings.dart';
 import 'package:resturantapp/presentation/resorces/assetsmanager.dart';
 import 'package:resturantapp/presentation/resorces/colorManager.dart';

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:resturantapp/app/constant.dart';
-import 'package:resturantapp/data/responses.dart';
+import 'package:resturantapp/data/responses/responses.dart';
 import 'package:retrofit/http.dart';
 part 'app_Api.g.dart';
 

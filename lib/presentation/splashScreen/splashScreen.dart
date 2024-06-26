@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:resturantapp/presentation/logIn/logIn.dart';
+import 'package:resturantapp/presentation/logIn/logIn_View/logIn.dart';
 import 'package:resturantapp/presentation/resorces/colorManager.dart';
 import 'package:resturantapp/presentation/resorces/assetsmanager.dart';
 

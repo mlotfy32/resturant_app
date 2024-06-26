@@ -4,7 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:resturantapp/domain/models.dart';
-import 'package:resturantapp/presentation/manager/onBordingCubit/on_bord_state_cubit.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/on_bord_state_cubit.dart';
+import 'package:resturantapp/presentation/onpordingScreen/onBordingViewModel/on_bord_state_state.dart';
 import 'package:resturantapp/presentation/resorces/fontManager.dart';
 import 'package:resturantapp/presentation/resorces/valuesManager.dart';
 

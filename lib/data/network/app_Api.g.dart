@@ -12,7 +12,9 @@ class _AppServicesClint implements AppServicesClint {
   _AppServicesClint(
     this._dio, {
     this.baseUrl,
-  });
+  }) {
+    baseUrl ??= 'https://mhmd214.wiremockapi.cloud';
+  }
 
   final Dio _dio;
 
